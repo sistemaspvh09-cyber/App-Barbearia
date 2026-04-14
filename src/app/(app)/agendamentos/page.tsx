@@ -71,7 +71,7 @@ export default function AgendamentosPage() {
       {/* CTA */}
       <div className="px-5 mt-6">
         <Link
-          href="/(app)/agendar"
+          href="/agendar"
           className="block w-full bg-amber-600 text-white font-semibold text-center py-4 rounded-2xl"
         >
           Novo agendamento

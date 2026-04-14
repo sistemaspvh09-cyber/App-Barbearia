@@ -1,0 +1,17 @@
+{
+  "name": "Barbearia App",
+  "short_name": "Barbearia",
+  "description": "Agende seu horário na melhor barbearia da cidade",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

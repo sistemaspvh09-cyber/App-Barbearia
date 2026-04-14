@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 import { Home, Calendar, Scissors, User } from "lucide-react";
 
 const navItems = [
-  { href: "/(app)/inicio", icon: Home, label: "Início" },
-  { href: "/(app)/agendamentos", icon: Calendar, label: "Agenda" },
-  { href: "/(app)/servicos", icon: Scissors, label: "Serviços" },
-  { href: "/(app)/perfil", icon: User, label: "Perfil" },
+  { href: "/inicio", icon: Home, label: "Início" },
+  { href: "/agendamentos", icon: Calendar, label: "Agenda" },
+  { href: "/servicos", icon: Scissors, label: "Serviços" },
+  { href: "/perfil", icon: User, label: "Perfil" },
 ];
 
 export default function BottomNav() {

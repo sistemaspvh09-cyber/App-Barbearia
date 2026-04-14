@@ -40,7 +40,7 @@ export default function InicioPage() {
           Corte + Barba com<br />20% de desconto
         </p>
         <Link
-          href="/(app)/agendar"
+          href="/agendar"
           className="inline-block mt-3 bg-white text-amber-600 font-semibold text-sm px-4 py-2 rounded-xl"
         >
           Agendar agora
@@ -51,14 +51,14 @@ export default function InicioPage() {
       <div className="px-5 mb-6">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-white font-semibold">Próximos agendamentos</h2>
-          <Link href="/(app)/agendamentos" className="text-amber-500 text-sm">Ver todos</Link>
+          <Link href="/agendamentos" className="text-amber-500 text-sm">Ver todos</Link>
         </div>
 
         {proximosAgendamentos.length === 0 ? (
           <div className="bg-zinc-800 rounded-2xl p-5 text-center">
             <Scissors className="w-8 h-8 text-zinc-600 mx-auto mb-2" />
             <p className="text-zinc-500 text-sm">Nenhum agendamento</p>
-            <Link href="/(app)/agendar" className="text-amber-500 text-sm font-medium mt-1 block">
+            <Link href="/agendar" className="text-amber-500 text-sm font-medium mt-1 block">
               Agendar agora
             </Link>
           </div>
@@ -86,7 +86,7 @@ export default function InicioPage() {
       <div className="px-5 mb-6">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-white font-semibold">Serviços</h2>
-          <Link href="/(app)/servicos" className="text-amber-500 text-sm">Ver todos</Link>
+          <Link href="/servicos" className="text-amber-500 text-sm">Ver todos</Link>
         </div>
         <div className="grid grid-cols-2 gap-3">
           {servicos.map((s) => (

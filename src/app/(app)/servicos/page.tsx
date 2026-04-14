@@ -44,7 +44,7 @@ export default function ServicosPage() {
       {/* CTA */}
       <div className="px-5 mt-6 mb-6">
         <Link
-          href="/(app)/agendar"
+          href="/agendar"
           className="block w-full bg-amber-600 text-white font-semibold text-center py-4 rounded-2xl"
         >
           Agendar serviço

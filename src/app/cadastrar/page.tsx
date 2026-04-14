@@ -3,7 +3,7 @@ import { ChevronLeft } from "lucide-react";
 
 export default function RegisterPage() {
   return (
-    <main className="flex flex-col min-h-screen bg-zinc-900 px-6 pt-safe-top">
+    <main className="flex flex-col min-h-screen bg-zinc-900 px-6 safe-top">
       {/* Header */}
       <div className="flex items-center pt-6 pb-8">
         <Link href="/" className="text-zinc-400 active:text-white transition-colors">

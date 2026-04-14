@@ -10,7 +10,7 @@ export default function AgendarPage() {
     <main className="bg-zinc-900 min-h-screen">
       {/* Header */}
       <div className="flex items-center px-5 pt-12 pb-6">
-        <Link href="/(app)/inicio" className="text-zinc-400 active:text-white mr-3">
+        <Link href="/inicio" className="text-zinc-400 active:text-white mr-3">
           <ChevronLeft className="w-6 h-6" />
         </Link>
         <div>
